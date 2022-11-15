@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.4;
 
-import "solmate/src/utils/SafeTransferLib.sol";
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/utils/SafeTransferLib.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 import "../interfaces/IRewarder.sol";
 
 

@@ -3,7 +3,7 @@
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 
 contract SnackToken is ERC20, Ownable {
     constructor() ERC20("Sudo Snacks", "SNACK", 18) {}

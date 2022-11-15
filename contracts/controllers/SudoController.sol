@@ -3,7 +3,7 @@
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/access/Ownable.sol";
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 import "../lssvm/LSSVMPair.sol";
 import "../lib/SqrtMath.sol";
 import "../SnackShack.sol";

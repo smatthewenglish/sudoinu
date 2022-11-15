@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 
 contract MockERC20 is ERC20 {
     constructor(string memory name, string memory symbol) ERC20(name, symbol, 18) {}

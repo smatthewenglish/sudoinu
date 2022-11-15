@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.4;
 
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 
 interface IRewarder {
     function onSnacksReward(uint256 pid, address user, address recipient, uint256 snacksAmount, uint256 newLpAmount) external;

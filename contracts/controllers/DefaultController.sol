@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.4;
 
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 import "../SnackShack.sol";
 import "./Controller.sol";
 

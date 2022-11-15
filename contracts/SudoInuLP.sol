@@ -3,7 +3,7 @@
 pragma solidity ^0.8.4;
 
 import "@openzeppelin/contracts/token/ERC721/IERC721.sol";
-import "solmate/src/tokens/ERC20.sol";
+import "@rari-capital/solmate/src/tokens/ERC20.sol";
 import "./lssvm/ILSSVMPairFactoryLike.sol";
 import "./lssvm/lib/IOwnershipTransferCallback.sol";
 import "./lssvm/bonding-curves/ICurve.sol";
